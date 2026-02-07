@@ -1,0 +1,263 @@
+<html>
+<title>NCR Gallery</title>
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.header {
+  text-align: center;
+  font-size: 10px;
+  padding: 10px;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+.header p {
+  margin-top: 10px;
+  color: #ff5fa2;
+  font-size: 15px;
+
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 40px;
+  background-color: #3fc1e6;
+  
+}
+
+
+.gallery-item {
+  background: white;
+  border-radius: 12px;
+  border: red 2px solid;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-6px);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.gallery-item h3 {
+  padding: 15px;
+  color: #0a2a3a;
+}
+
+.site-nav{
+  border: 2px solid #ff143f;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 12px 20px;
+}
+
+
+
+   nav a {
+  padding: 10px 18px;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  border-color: #ff1493;
+  box-shadow: 0 0 10px rgba(255, 20, 147, 0.4);
+}
+
+.about-box {
+  background-color: #d9f5fb;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.gallery-intro{
+  background:#39c1e7;
+  padding: 40px 0;
+}
+
+.gallery-intro p{
+  border: 2px solid #e117b6;
+  background: #05c3f3;
+  color: #000;
+  padding: 22px 35px;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+}
+
+footer{
+      background:#0f2027;
+      color:#fff;
+      text-align:center;
+      padding:10px;
+      
+    }
+
+    footer p{
+      font-size: 15px;
+    }
+
+</style>
+  <header class="header">
+    <h1>NCR Tourist Gallery</h1>
+    <p>Explore the beauty and history of Metro Manila</p><br>
+  </header>
+
+<div class="nav-wrapper">
+  <nav class="site-nav">
+    <a href="Home.htm">About</a>
+    <a href="Municipalities.htm">Municipalities</a>
+    <a href="Gallery.htm">Tourist Gallery</a>
+    <a href="Contact.htm">Contact Us</a>
+  </nav>
+</div>
+
+
+<section class="gallery-intro">
+  <p>
+    Manila is home to many famous tourist spots such as Rizal Park,
+    Intramuros, the National Museum, Manila Ocean Park, Binondo,
+    and Manila Cathedral..The National Capital Region (NCR), also known as Metro Manila, 
+    is home to some of the Philippines’ most iconic tourist destinations. Visitors can explore Intramuros, 
+    the historic walled city that reflects Spanish-era heritage, relax at Rizal Park, and discover art and history at the National Museum Complex. 
+    Binondo Chinatown, the world’s oldest Chinatown, offers rich culture and famous local cuisine, while Manila Cathedral stands as a symbol of faith and history. 
+    Modern attractions like Manila Ocean Park add entertainment and family-friendly experiences, making NCR a perfect blend of history, culture, and modern city life.
+  </p>
+</section>
+
+
+
+  <section class="gallery">
+    <div class="gallery-item">
+      <img src="bank.jpg">
+      <h3>River bank center Marikina</h3>
+    </div>
+
+    <div class="gallery-item">
+      <img src="Garden.jpg">
+      <h3>Las piñas botanical Garden</h3>
+    </div>
+
+    <div class="gallery-item">
+      <img src="3g.jpg">
+      <h3>
+        3g sky restobar Mandaluyong
+     </h3>
+    </div>
+
+    <div class="gallery-item">
+      <img src="flowers.jpg">
+      <h3>Sunflower Farm  </h3>
+    </div>
+
+    <div class="gallery-item">
+      <img src="Plaza.jpg">
+      <h3>Plaza rizal/ Plaza de la paz (Pasig)</h3>
+    </div>
+
+    <div class="gallery-item">
+      <img src="Venice.jpg">
+      <h3>Venice grand canal </h3>
+    </div>
+
+    <div class="gallery-item">
+      <img src="Museum.jpg">
+      <h3>Ayala museum</h3>
+    </div>
+
+    <div class="gallery-item">
+      <img src="Tower.jpg">
+      <h3>Marikina clock tower arch</h3>
+    </div>
+
+    <div class="gallery-item">
+      <img src="river.jpg">
+      <h3>Marikina city river bank/park</h3>
+    </div>
+
+    <div class="gallery-item">
+      <img src="mall.jpg">
+      <h3>The Mall of Asia Bay Area Amusement Park</h3>
+    </div>
+
+     <div class="gallery-item">
+      <img src="Park.jpg">
+      <h3>Luneta Park</h3>
+    </div>
+
+    <div class="gallery-item">
+      <img src="SMOA.jpg">
+      <h3>Mall of Asia (MOA)</h3>
+    </div>
+
+     <div class="gallery-item">
+      <img src="BGC.jpg">
+      <h3>BGC (Bonifacio Global City)</h3>
+    </div>
+
+     <div class="gallery-item">
+      <img src="quezon city.jpg">
+      <h3>La Mesa Eco Park</h3>
+    </div>
+
+    <div class="gallery-item">
+      <img src="pasig rainforest.jpg">
+      <h3>pasig rainforest</h3>
+    </div>
+
+    <div class="gallery-item">
+      <img src="mandaluyong shrine.jpg">
+      <h3>EDSA Shrine</h3>
+    </div>
+
+    <div class="gallery-item">
+      <img src="San Juan shrine.jpg">
+      <h3>Pinaglabanan Shrine</h3>
+    </div>
+
+    <div class="gallery-item">
+      <img src="Bonifaciomonument.jpg">
+      <h3>Bonifaciomonument</h3>
+    </div>
+
+     <div class="gallery-item">
+      <img src="Malabon_City.jpg">
+      <h3>San Bartolome Church</h3>
+    </div>
+
+     <div class="gallery-item">
+      <img src="Peoples Park.jpg">
+      <h3>Valenzuela People's Park</h3>
+    </div>
+  </section>
+
+<footer class="site-footer">
+  <h5>© 2026 | NCR Region Group 11 Website</h5>
+</footer>
+
+</html>

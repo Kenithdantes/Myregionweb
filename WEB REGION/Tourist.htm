@@ -1,0 +1,378 @@
+<html>
+<title>NCR Region Web</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family:'Poppins', sans-serif;
+}
+
+body{
+  background:#39c1e7;
+  color:#333;
+  line-height:1.6;
+  cursor: default;
+}
+
+
+header{
+  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:#fff;
+  padding:20px;
+  text-align:center;
+}
+
+header h1{
+  font-size:2rem;
+  margin-bottom:8px;
+}
+
+header h3{
+  font-size:1rem;
+  color:#ff4da6;
+}
+
+
+ .site-nav{
+  background:#ffffff;
+  border: 2px solid #14adff;
+  border-radius: 8px;
+  color: #000;
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  padding:8px 15px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.1);
+  position:sticky;
+  top:0;
+  z-index:100;
+}
+
+
+   nav a {
+  padding: 10px 18px;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  border-color: #ff1493;
+  box-shadow: 0 0 10px rgba(255, 20, 147, 0.4);
+}
+
+
+footer{
+  background:#0f2027;
+  color:#fff;
+  text-align:center;
+  padding:15px;
+  margin-top:80px;
+}
+
+footer h5{
+  color:rgb(241, 174, 50);
+}
+
+.tourist-section {
+  padding: 40px;
+  background: #3ec1e6; 
+}
+
+.city {
+  margin-bottom: 40px;
+}
+
+.city h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #083344;
+  font-size: 32px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-row img {
+  width: 280px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+
+.image-card{
+  text-align: center;
+  border: red 2px solid;
+}
+
+.image-title{
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #083344;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #ad05f0;
+  width: 100vw;            
+  margin: 50px 0;
+  margin-left: calc(-50vw + 50%);
+}
+
+
+.tourist-img {
+  border-radius: 15px;
+  border: red solid 2px;
+  padding: 6px;
+  background: white;  
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tourist-img:hover {
+  transform: scale(1.05);
+  box-shadow: red 2px solid;
+}
+
+.intro-text {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px 30px;
+
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(6px);
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.4);
+
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Tourist Spots (NCR)</h1>
+  <h3>The heart of the Philippines — center of government, culture, business, and history.</h3>
+</header>
+
+<nav class="site-nav">
+  <a href="Home.htm">About</a>
+  <a href="Municipalities.htm">Municipalities</a>
+  <a href="Tourist.htm">Tourist</a>
+  <a href="Gallery.htm">Gallery</a>
+</nav>
+
+<p class="intro-text">
+  Manila is home to many famous tourist spots such as Rizal Park, Intramuros, the National Museum, Manila Ocean Park, Binondo, and Manila Cathedral, which together showcase the city’s rich history, culture, and entertainment.
+  These destinations offer a mix of historical landmarks, museums, cultural heritage, and modern attractions, making Manila a popular place for tourists who want to explore the past and present of the Philippines in one city.
+</p>
+
+<section class="tourist-section">
+
+  <div class="city">
+  <h2>Manila</h2>
+
+  <div class="image-row">
+
+  <div class="image-card tourist-img">
+    <p class="image-title">Intramuros</p>
+    <img src="Intramuros.jpg" alt="Intramuros">
+  </div>
+
+  <div class="image-card tourist-img">
+    <p class="image-title">Binondo China Town</p>
+    <img src="Binondo.jpg" alt="Binondo">
+  </div>
+
+  <div class="image-card tourist-img">
+    <p class="image-title">Rizal Park</p>
+    <img src="Rizal.jpg" alt="Rizal Park">
+  </div>
+
+</div>
+
+
+  </div><hr>
+
+ <div class="city">
+  <h2>Quezon City</h2>
+
+  <div class="image-row">
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Memorial Circle</p>
+      <img src="Memorial.jpg" alt="Intramuros">
+    </div>
+
+    <div class="image-card tourist-img">
+      <p class="image-title">La Mesa Eco</p>
+      <img src="Lamesa.jpg" alt="Manila Image 2">
+    </div>
+
+    <div class="image-card tourist-img">
+      <p class="image-title">University of the Philippines Diliman</p>
+      <img src="Sp.jpg" alt="Manila Image 3">
+    </div>
+
+  </div><hr>
+
+  <div class="city">
+  <h2>Makati City</h2>
+
+  <div class="image-row">
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Ayala Museum</p>
+      <img src="Museum.jpg" alt="Intramuros">
+    </div>
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Guadalupe Ruins</p>
+      <img src="Guadalupe.jpg" alt="Manila Image 2">
+    </div>
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Greenbelt</p>
+      <img src="Belt.jpg" alt="Manila Image 3">
+    </div>
+
+    </div><hr> 
+
+   <div class="city">
+  <h2>Taguig City</h2>
+
+  <div class="image-row">
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Bonifacio Global City</p>
+      <img src="BGC.jpg" alt="Intramuros">
+    </div>
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Venice grand Canal </p>
+      <img src="Venice.jpg" alt="Manila Image 2">
+    </div>
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Fort Bonifacio Cemetery</p>
+      <img src="Fort.jpg" alt="Manila Image 3">
+    </div>
+
+  </div><hr>
+
+  <div class="city">
+  <h2>Pasig</h2>
+
+  <div class="image-row">
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Ortigas Center</p>
+      <img src="Ortigas.jpg" alt="Intramuros">
+    </div>
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Museum</p>
+      <img src="museum1.jpg" alt="Manila Image 2">
+    </div>
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Plaza Rizal</p>
+      <img src="Plaza.jpg" alt="Manila Image 3">
+    </div>
+
+  </div><hr>
+
+  <div class="city">
+  <h2>Caloocan City</h2>
+
+  <div class="image-row">
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Bonifacio Monument</p>
+      <img src="Monument.jpg" alt="Intramuros">
+    </div>
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Amparo Nature Park</p>
+      <img src="Amparo.jpg" alt="Manila Image 2">
+    </div>
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Chinese temple</p>
+      <img src="Temple.jpg" alt="Manila Image 3">
+    </div>
+
+  </div><hr>
+
+ <div class="city">
+  <h2>Malabon</h2>
+
+  <div class="image-row">
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Cultural Properties</p>
+      <img src="Cultural.jpg" alt="Intramuros">
+    </div>
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Dampalite Megadike</p>
+      <img src="Dampalite.jpg" alt="Manila Image 2">
+    </div>
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Umbrella Park</p>
+      <img src="Umbrela.jpg" alt="Manila Image 3">
+    </div>
+
+  </div><hr>
+
+  <div class="city">
+  <h2>Las Piñas</h2>
+
+  <div class="image-row">
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Sunflowers Farm</p>
+      <img src="flowers.jpg" alt="Intramuros">
+    </div>
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Wetland Park</p>
+      <img src="Wetland.jpg" alt="Manila Image 2">
+    </div>
+
+    <div class="image-card tourist-img">
+      <p class="image-title">Botanical Garden</p>
+      <img src="Garden.jpg" alt="Manila Image 3">
+    </div>
+
+  </div><hr>
+
+
+</div>
+
+</section>
+
+
+<footer>
+  <h5>© 2026 | NCR Region Group 11 Website</h5>
+</footer>
+
+</body>
+</html>
